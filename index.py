@@ -1,7 +1,7 @@
 from dash import dcc, html
 from dash.dependencies import Input, Output
 
-from app import app
+from app import app, server
 from components.sport import sport
 from components.landing import landing
 
